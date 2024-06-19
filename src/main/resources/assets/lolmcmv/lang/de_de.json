@@ -1,13 +1,13 @@
 {
-  "block.lolmcmv.oak_composter": "Eichenholzbognertisch" ,
-  "block.lolmcmv.spruce_composter": "Fichtenholzbognertisch" ,
-  "block.lolmcmv.birch_composter": "Birkenholzbognertisch" ,
-  "block.lolmcmv.jungle_composter": "Tropenholzbognertisch" ,
-  "block.lolmcmv.acacia_composter": "Akazienholzbognertisch" ,
-  "block.lolmcmv.dark_oak_composter": "Schwarzeichenholzbognertisch" ,
-  "block.lolmcmv.mangrove_composter": "Mangrovenholzbognertisch" ,
-  "block.lolmcmv.cherry_composter": "Kirschholzbognertisch" ,
-  "block.lolmcmv.bamboo_composter": "Bambusbognertisch" ,
-  "block.lolmcmv.crimson_composter": "Karmesinbognertisch" ,
-  "block.lolmcmv.warped_composter": "Wirrbognertisch"
+  "block.lolmcmv.oak_composter": "Eichenholzkomposter" ,
+  "block.lolmcmv.spruce_composter": "Fichtenholzkomposter" ,
+  "block.lolmcmv.birch_composter": "Birkenholzkomposter" ,
+  "block.lolmcmv.jungle_composter": "Tropenholzkomposter" ,
+  "block.lolmcmv.acacia_composter": "Akazienholzkomposter" ,
+  "block.lolmcmv.dark_oak_composter": "Schwarzeichenholzkomposter" ,
+  "block.lolmcmv.mangrove_composter": "Mangrovenholzkomposter" ,
+  "block.lolmcmv.cherry_composter": "Kirschholzkomposter" ,
+  "block.lolmcmv.bamboo_composter": "Bambuskomposter" ,
+  "block.lolmcmv.crimson_composter": "Karmesinkomposter" ,
+  "block.lolmcmv.warped_composter": "Wirrkomposter"
 }
