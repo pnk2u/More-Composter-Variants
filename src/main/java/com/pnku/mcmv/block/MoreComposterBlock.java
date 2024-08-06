@@ -9,12 +9,12 @@ public class MoreComposterBlock extends ComposterBlock {
     public final String composterType;
 
     public MoreComposterBlock(MapColor colour, String composterType) {
-        super(Properties.ofFullCopy(Blocks.COMPOSTER).mapColor(colour));
+        super(Properties.copy(Blocks.COMPOSTER).mapColor(colour));
         this.composterType = composterType;
     }
 
     public MoreComposterBlock(MapColor colour, SoundType sound, String composterType) {
-        super(Properties.ofFullCopy(Blocks.COMPOSTER).mapColor(colour).sound(sound));
+        super(Properties.copy(Blocks.COMPOSTER).mapColor(colour).sound(sound));
         this.composterType = composterType;
     }
 }
