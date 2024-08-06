@@ -1,18 +1,20 @@
 package com.pnku.mcmv.block;
 
-import net.minecraft.block.*;
-import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.ComposterBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.MapColor;
 
 public class MoreComposterBlock extends ComposterBlock {
     public final String composterType;
 
     public MoreComposterBlock(MapColor colour, String composterType) {
-        super(Settings.copy(Blocks.COMPOSTER).mapColor(colour));
+        super(Properties.ofFullCopy(Blocks.COMPOSTER).mapColor(colour));
         this.composterType = composterType;
     }
 
-    public MoreComposterBlock(MapColor colour, BlockSoundGroup sound, String composterType) {
-        super(Settings.copy(Blocks.COMPOSTER).mapColor(colour).sounds(sound));
+    public MoreComposterBlock(MapColor colour, SoundType sound, String composterType) {
+        super(Properties.ofFullCopy(Blocks.COMPOSTER).mapColor(colour).sound(sound));
         this.composterType = composterType;
     }
 }
