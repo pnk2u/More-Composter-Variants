@@ -3,7 +3,7 @@
   "package": "com.pnku.mcmv.mixin" ,
   "compatibilityLevel": "JAVA_17" ,
   "mixins": [
-    "PointOfInterestTypesAccessor"
+    "PoiTypesAccessor"
   ] ,
   "injectors": {
     "defaultRequire": 1
