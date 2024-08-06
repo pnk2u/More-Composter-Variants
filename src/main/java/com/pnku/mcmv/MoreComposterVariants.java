@@ -18,6 +18,6 @@ public class MoreComposterVariants implements ModInitializer {
 
 
     public static ResourceLocation asId(String path) {
-        return new ResourceLocation.fromNamespaceAndPath(MODID, path);
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 }
