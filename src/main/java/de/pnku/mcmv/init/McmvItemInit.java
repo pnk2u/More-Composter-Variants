@@ -1,7 +1,7 @@
-package com.pnku.mcmv.init;
+package de.pnku.mcmv.init;
 
-import com.pnku.mcmv.MoreComposterVariants;
-import com.pnku.mcmv.block.MoreComposterBlock;
+import de.pnku.mcmv.MoreComposterVariants;
+import de.pnku.mcmv.block.MoreComposterBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;

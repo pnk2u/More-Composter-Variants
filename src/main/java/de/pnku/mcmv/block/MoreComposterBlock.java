@@ -1,4 +1,4 @@
-package com.pnku.mcmv.block;
+package de.pnku.mcmv.block;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ComposterBlock;

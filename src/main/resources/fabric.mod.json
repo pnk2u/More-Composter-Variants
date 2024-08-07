@@ -17,7 +17,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.pnku.mcmv.MoreComposterVariants"
+          "de.pnku.mcmv.MoreComposterVariants"
 		]
 	},
 	"mixins": [

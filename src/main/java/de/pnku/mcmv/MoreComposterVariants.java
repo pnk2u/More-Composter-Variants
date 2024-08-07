@@ -1,8 +1,8 @@
-package com.pnku.mcmv;
+package de.pnku.mcmv;
 
-import com.pnku.mcmv.init.McmvBlockInit;
-import com.pnku.mcmv.init.McmvItemInit;
-import com.pnku.mcmv.poi.McmvPointOfInterestTypes;
+import de.pnku.mcmv.init.McmvBlockInit;
+import de.pnku.mcmv.init.McmvItemInit;
+import de.pnku.mcmv.poi.McmvPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 
