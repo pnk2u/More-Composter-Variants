@@ -20,23 +20,23 @@ public class McmvPointOfInterestTypes {
         Map<BlockState, Holder<PoiType>> poiStatesToType = PoiTypesAccessor
                 .getPointOfInterestStatesToType();
 
-        Holder<PoiType> beehiveEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.BEEHIVE).get();
+        Holder<PoiType> composterEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
+                .getHolder(PoiTypes.FARMER).get();
 
-        PoiType beehivePoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.BEEHIVE);
+        PoiType farmerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.FARMER);
 
-        List<BlockState> beehiveBlockStates = new ArrayList<BlockState>(beehivePoiType.matchingStates);
+        List<BlockState> composterBlockStates = new ArrayList<BlockState>(farmerPoiType.matchingStates);
 
         for (Block block : McmvBlockInit.more_composters) {
             ImmutableList<BlockState> blockStates = block.getStateDefinition().getPossibleStates();
 
             for (BlockState blockState : blockStates) {
-                poiStatesToType.putIfAbsent(blockState, beehiveEntry);
+                poiStatesToType.putIfAbsent(blockState, composterEntry);
             }
 
-            beehiveBlockStates.addAll(blockStates);
+            composterBlockStates.addAll(blockStates);
         }
 
-        beehivePoiType.matchingStates = ImmutableSet.copyOf(beehiveBlockStates);
+        farmerPoiType.matchingStates = ImmutableSet.copyOf(composterBlockStates);
     }
 }
