@@ -9,5 +9,16 @@
   "block.lolmcmv.cherry_composter": "Kirschholzkomposter" ,
   "block.lolmcmv.bamboo_composter": "Bambuskomposter" ,
   "block.lolmcmv.crimson_composter": "Karmesinkomposter" ,
-  "block.lolmcmv.warped_composter": "Wirrkomposter"
+  "block.lolmcmv.warped_composter": "Wirrkomposter",
+  "item.lolmcmv.oak_composter": "Eichenholzkomposter" ,
+  "item.lolmcmv.spruce_composter": "Fichtenholzkomposter" ,
+  "item.lolmcmv.birch_composter": "Birkenholzkomposter" ,
+  "item.lolmcmv.jungle_composter": "Tropenholzkomposter" ,
+  "item.lolmcmv.acacia_composter": "Akazienholzkomposter" ,
+  "item.lolmcmv.dark_oak_composter": "Schwarzeichenholzkomposter" ,
+  "item.lolmcmv.mangrove_composter": "Mangrovenholzkomposter" ,
+  "item.lolmcmv.cherry_composter": "Kirschholzkomposter" ,
+  "item.lolmcmv.bamboo_composter": "Bambuskomposter" ,
+  "item.lolmcmv.crimson_composter": "Karmesinkomposter" ,
+  "item.lolmcmv.warped_composter": "Wirrkomposter"
 }
