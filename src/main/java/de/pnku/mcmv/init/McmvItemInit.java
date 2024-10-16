@@ -15,20 +15,24 @@ import net.minecraft.world.item.Items;
 import static de.pnku.mcmv.init.McmvBlockInit.*;
 
 public class McmvItemInit {
-    public static final BlockItem OAK_COMPOSTER_I = new BlockItem(OAK_COMPOSTER, setProperties(OAK_COMPOSTER));
-    public static final BlockItem SPRUCE_COMPOSTER_I = new BlockItem(SPRUCE_COMPOSTER, setProperties(SPRUCE_COMPOSTER));
-    public static final BlockItem BIRCH_COMPOSTER_I = new BlockItem(BIRCH_COMPOSTER, setProperties(BIRCH_COMPOSTER));
-    public static final BlockItem JUNGLE_COMPOSTER_I = new BlockItem(JUNGLE_COMPOSTER, setProperties(JUNGLE_COMPOSTER));
-    public static final BlockItem ACACIA_COMPOSTER_I = new BlockItem(ACACIA_COMPOSTER, setProperties(ACACIA_COMPOSTER));
-    public static final BlockItem DARK_OAK_COMPOSTER_I = new BlockItem(DARK_OAK_COMPOSTER, setProperties(DARK_OAK_COMPOSTER));
-    public static final BlockItem MANGROVE_COMPOSTER_I = new BlockItem(MANGROVE_COMPOSTER, setProperties(MANGROVE_COMPOSTER));
-    public static final BlockItem CHERRY_COMPOSTER_I = new BlockItem(CHERRY_COMPOSTER, setProperties(CHERRY_COMPOSTER));
-    public static final BlockItem BAMBOO_COMPOSTER_I = new BlockItem(BAMBOO_COMPOSTER, setProperties(BAMBOO_COMPOSTER));
-    public static final BlockItem CRIMSON_COMPOSTER_I = new BlockItem(CRIMSON_COMPOSTER, setProperties(CRIMSON_COMPOSTER));
-    public static final BlockItem WARPED_COMPOSTER_I = new BlockItem(WARPED_COMPOSTER, setProperties(WARPED_COMPOSTER));
+    public static final BlockItem OAK_COMPOSTER_I = itemFromBlock(OAK_COMPOSTER);
+    public static final BlockItem SPRUCE_COMPOSTER_I = itemFromBlock(SPRUCE_COMPOSTER);
+    public static final BlockItem BIRCH_COMPOSTER_I = itemFromBlock(BIRCH_COMPOSTER);
+    public static final BlockItem JUNGLE_COMPOSTER_I = itemFromBlock(JUNGLE_COMPOSTER);
+    public static final BlockItem ACACIA_COMPOSTER_I = itemFromBlock(ACACIA_COMPOSTER);
+    public static final BlockItem DARK_OAK_COMPOSTER_I = itemFromBlock(DARK_OAK_COMPOSTER);
+    public static final BlockItem MANGROVE_COMPOSTER_I = itemFromBlock(MANGROVE_COMPOSTER);
+    public static final BlockItem CHERRY_COMPOSTER_I = itemFromBlock(CHERRY_COMPOSTER);
+    public static final BlockItem BAMBOO_COMPOSTER_I = itemFromBlock(BAMBOO_COMPOSTER);
+    public static final BlockItem CRIMSON_COMPOSTER_I = itemFromBlock(CRIMSON_COMPOSTER);
+    public static final BlockItem WARPED_COMPOSTER_I = itemFromBlock(WARPED_COMPOSTER);
+
+    public static BlockItem itemFromBlock(MoreComposterBlock moreComposterBlock) {
+        return new BlockItem(moreComposterBlock, setProperties(moreComposterBlock));
+    }
 
     public static Item.Properties setProperties(MoreComposterBlock moreComposterBlock) {
-        return new Item.Properties().setId(ResourceKey.create(Registries.ITEM, MoreComposterVariants.asId(moreComposterBlock.composterType + "_composter")));
+        return new Item.Properties().setId(ResourceKey.create(Registries.ITEM, BuiltInRegistries.BLOCK.getKey(moreComposterBlock))).useBlockDescriptionPrefix();
     }
 
     public static void registerItems() {
