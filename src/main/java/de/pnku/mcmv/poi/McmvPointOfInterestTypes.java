@@ -21,9 +21,9 @@ public class McmvPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> composterEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.FARMER).get();
+                .get(PoiTypes.FARMER).get();
 
-        PoiType farmerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.FARMER);
+        PoiType farmerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.FARMER);
 
         List<BlockState> composterBlockStates = new ArrayList<BlockState>(farmerPoiType.matchingStates);
 
