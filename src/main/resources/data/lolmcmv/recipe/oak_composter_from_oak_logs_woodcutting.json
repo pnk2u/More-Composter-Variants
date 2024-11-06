@@ -1,9 +1,9 @@
 {
   "type": "nemos-woodcutter:woodcutting",
-  "ingredient": "minecraft:oak_planks",
+  "ingredient": "#minecraft:oak_logs",
   "inputCount": 1,
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "lolmcmv:oak_composter"
   }
 }

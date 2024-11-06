@@ -1,9 +1,9 @@
 {
   "type": "nemos-woodcutter:woodcutting",
-  "ingredient": "minecraft:birch_planks",
+  "ingredient": "#minecraft:birch_logs",
   "inputCount": 1,
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "lolmcmv:birch_composter"
   }
 }

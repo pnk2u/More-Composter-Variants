@@ -1,9 +1,9 @@
 {
   "type": "nemos-woodcutter:woodcutting",
-  "ingredient": "minecraft:acacia_planks",
+  "ingredient": "#minecraft:acacia_logs",
   "inputCount": 1,
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "lolmcmv:acacia_composter"
   }
 }
