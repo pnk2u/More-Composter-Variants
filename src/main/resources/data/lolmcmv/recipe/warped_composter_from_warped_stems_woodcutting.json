@@ -1,9 +1,9 @@
 {
   "type": "nemos-woodcutter:woodcutting",
-  "ingredient": "minecraft:warped_planks",
+  "ingredient": "#minecraft:warped_stems",
   "inputCount": 1,
   "result": {
-    "count": 1,
+    "count": 4,
     "id": "lolmcmv:warped_composter"
   }
 }
