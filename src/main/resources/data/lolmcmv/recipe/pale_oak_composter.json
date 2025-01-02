@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "composter",
+  "key": {
+    "#": "minecraft:pale_oak_slab"
+        },
+  "pattern":  [
+  "# #",
+  "# #",
+  "###"
+ ],
+  "result": {
+    "count": 1,
+    "id": "lolmcmv:pale_oak_composter"
+  }
+}

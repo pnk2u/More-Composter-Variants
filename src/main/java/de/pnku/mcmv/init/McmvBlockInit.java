@@ -18,6 +18,7 @@ public class McmvBlockInit {
     public static final MoreComposterBlock JUNGLE_COMPOSTER = new MoreComposterBlock(MapColor.DIRT, "jungle");
     public static final MoreComposterBlock ACACIA_COMPOSTER = new MoreComposterBlock(MapColor.COLOR_ORANGE, "acacia");
     public static final MoreComposterBlock DARK_OAK_COMPOSTER = new MoreComposterBlock(MapColor.COLOR_BROWN, "dark_oak");
+    public static final MoreComposterBlock PALE_OAK_COMPOSTER = new MoreComposterBlock(MapColor.QUARTZ, "pale_oak");
     public static final MoreComposterBlock MANGROVE_COMPOSTER = new MoreComposterBlock(MapColor.COLOR_RED, "mangrove");
     public static final MoreComposterBlock CHERRY_COMPOSTER = new MoreComposterBlock(MapColor.TERRACOTTA_WHITE, SoundType.CHERRY_WOOD, "cherry");
     public static final MoreComposterBlock BAMBOO_COMPOSTER = new MoreComposterBlock(MapColor.COLOR_YELLOW, SoundType.BAMBOO_WOOD, "bamboo");
@@ -34,6 +35,7 @@ public class McmvBlockInit {
         registerBlock(JUNGLE_COMPOSTER);
         registerBlock(ACACIA_COMPOSTER);
         registerBlock(DARK_OAK_COMPOSTER);
+        registerBlock(PALE_OAK_COMPOSTER);
         registerBlock(MANGROVE_COMPOSTER);
         registerBlock(CHERRY_COMPOSTER);
         registerBlock(BAMBOO_COMPOSTER);
