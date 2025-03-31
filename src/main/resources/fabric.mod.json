@@ -8,7 +8,8 @@
 		"${mod_authors}"
 	],
 	"contact": {
-		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"homepage": "https://www.pnku.de",
+		"email": "contact@pnku.de",
 		"sources": "https://github.com/pnk2u/More-Composter-Variants",
 		"issues": "https://github.com/pnk2u/More-Composter-Variants/issues"
 	},
@@ -26,14 +27,13 @@
 	"accessWidener": "lolmcmv.accesswidener" ,
 	"depends": {
 		"fabricloader": ">=${loader_version}",
-		"minecraft": ">=1.21",
+		"minecraft": ">={minecraft_version_0}",
 		"java": ">=21",
 		"fabric-api": ">=0.97.0"
 	},
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
 				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
 			}
 		}
