@@ -2,7 +2,7 @@ package de.pnku.mcmv.init;
 
 import de.pnku.mcmv.MoreComposterVariants;
 import de.pnku.mcmv.block.MoreComposterBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -54,6 +54,6 @@ public class McmvItemInit {
     private static void registerItem(BlockItem composter, Item composterAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreComposterVariants.asId(((MoreComposterBlock) composter.getBlock()).composterType + "_composter"), composter);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(composterAfter, composter));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(composterAfter, composter));
     }
 }
