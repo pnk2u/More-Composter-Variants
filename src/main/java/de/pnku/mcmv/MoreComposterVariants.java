@@ -4,7 +4,7 @@ import de.pnku.mcmv.init.McmvBlockInit;
 import de.pnku.mcmv.init.McmvItemInit;
 import de.pnku.mcmv.poi.McmvPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public class MoreComposterVariants implements ModInitializer {
     public static final String MODID = "lolmcmv";
@@ -17,7 +17,7 @@ public class MoreComposterVariants implements ModInitializer {
     }
 
 
-    public static ResourceLocation asId(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    public static Identifier asId(String path) {
+        return Identifier.fromNamespaceAndPath(MODID, path);
     }
 }
